@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+:root {
+    --primary: #b16286;
+    --bg: #fbf1c7;
+}
+
+* {
+    font-family: "Fira Code", monospace;
+}
+
+body {
+    background-color: var(--bg);
+    color: #d3869b;
+}
+
+.nft {
+    max-width: 441px;
+    min-width: 25%;
+    min-height: 25%;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 35px;
+}
+
+@media (max-width: 600px) {
+    .nft {
+        max-width: 270px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.text-main {
+    margin-top: 20px;
+}
+
+.link {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--bg);
+}
+
+.button-dw {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--bg);
+
+}
+
+.button-dw:hover {
+    background-color: var(--bg);
+    color: var(--primary);
+}
